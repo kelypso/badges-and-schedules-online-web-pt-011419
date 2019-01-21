@@ -12,12 +12,12 @@ end
 
 def assign_rooms(attendees)
   i = 1 
-  array = []
+  room_assignments = []
   attendees.each do |name|
-    array << "Hello, #{name}! You'll be assigned to room #{i}!"
+    room_assignments << "Hello, #{name}! You'll be assigned to room #{i}!"
     i += 1 
   end
-  return array
+  room_assignments
 end
 
 def printer(attendees)
